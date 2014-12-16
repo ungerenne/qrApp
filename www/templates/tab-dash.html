@@ -1,0 +1,12 @@
+<ion-view view-title="Dashboard">
+    <ion-content class="padding">
+        <button type="button" class="button button-block button-balanced" ng-click="scanBarcode()">Scan</button>
+
+        <p>
+            <span>imageData.text<strong>{{imageData.text}}</strong></span>
+            <span>imageData.format<strong>{{imageData.format}}</strong></span>,
+            <span>imageData.cancelled<strong>{{imageData.cancelled}}</strong></span>,
+            <span>Error<strong>{{imageData.error}}</strong></span>,
+        </p>
+    </ion-content>
+</ion-view>
